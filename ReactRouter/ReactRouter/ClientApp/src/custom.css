@@ -1,0 +1,159 @@
+/* Provide sufficient contrast against white background */
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+
+    background-color:#5D4954;
+    /*background: rgb(73, 79, 82);*/
+    color: white;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.app {
+    text-align:center;
+}
+
+
+
+
+.lander {
+    padding: 300px 0;
+    text-align: center;
+    background-position: bottom 80px right 40px top 80px;
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    position:relative;
+}
+
+
+.center-page {
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.text-size {
+    height: 25px;
+    width: 177px;
+}
+.form {
+
+    background-color: navajowhite;
+}
+
+.admin-page {
+    
+    /*background-color:aliceblue;*/
+    background-color:chocolate;
+}
+
+.button-log-out {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    background-color:crimson;
+    color:wheat;
+    cursor:pointer;
+}
+.button-log-in {
+    height: 30px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    background-color: lightskyblue;
+    margin-left: 57px;
+}
+.button-add-event {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    background-color: lightskyblue;
+    margin-left: 57px;
+}
+.button-event-components {
+    height: 30px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    background-color: lightskyblue;
+    margin-left: 57px;
+}
+.button-delete-event {
+    height: 30px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    background-color: crimson;
+    color: wheat;
+    margin-left: 57px;
+}
+
+.date {
+    height: 25px;
+    width: 180px;
+}
+
+.event-display {
+    background-color: navajowhite;
+}
+
+
+
+.lander-admin-events {
+    padding: 30px 0;
+    text-align: center;
+    background-position: bottom 20px right 40px top 20px;
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+}
+
+.center-event-card {
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding:20px;
+}
